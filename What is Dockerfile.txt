@@ -1,0 +1,17 @@
+What is Dockerfile?
+
+The operating system (OS) libraries and dependencies required to run the application source code which is not reliant on the underlying operating system (OS) included in the Dockerfile, which is a standardized, executable component. Programmers may design, distribute, launch, run, upgrade, and manage containers using the open-source platform Docker. Enterprise Edition (EE) and Community Edition (CE) of Docker are both available. The Enterprise Version is for businesses and IT teams working on mission-critical production applications, while the Community Edition is suitable for small teams just learning Docker.
+
+
+
+The Dockerfile uses DSL (Domain Specific Language) and contains instructions for generating a Docker image. Dockerfile will define the processes to quickly produce an image. While creating your application, you should create a Dockerfile in order since the Docker daemon runs all of the instructions from top to bottom.
+
+
+
+
+What is Docker Image?
+An artifact with several layers and a lightweight, compact stand-alone executable package that contains all of the components required to run a piece of software, including the code, a runtime, libraries, environment variables, and configuration files is called a Docker image.
+
+
+What is Docker Container?
+A container is a runtime instance of an image. Containers make development and deployment more efficient since they contain all the dependencies and parameters needed for the application it runs completely isolated from the host environment.
